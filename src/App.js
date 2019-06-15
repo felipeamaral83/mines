@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import params from './params'
-import MineField from './components/mineField'
+import MineField from './components/MineField'
 import { createMinedBoard } from './functions'
 
 export default class App extends Component {
