@@ -17,3 +17,5 @@ const styles = StyleSheet.create({
         backgroundColor: '#EEE'
     }
 })
+
+/* SÓ PRA GERAR ALTERAÇÃO */
