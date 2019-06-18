@@ -5,7 +5,10 @@ import Field from './Field'
 export default props => {
     const rows = props.board.map((row, r) => {
         const fields = row.map((field, f) => {
-            return <Field {...field} key={f} />
+            return <Field {...field}
+                key={f}
+                onOpen={() => props.onOpenField(r, f)}
+                onSelect={() => props.onSelectField(r, f)} />
         })
         return <View style={{ flexDirection: 'row' }} key={r}>{fields}</View>
     })
@@ -17,5 +20,3 @@ const styles = StyleSheet.create({
         backgroundColor: '#EEE'
     }
 })
-
-/* SÓ PRA GERAR ALTERAÇÃO */
