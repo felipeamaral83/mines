@@ -25,6 +25,8 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "description": "Campo minado",
+    "githubUrl": "https://github.com/felipeamaral83/mines"
   }
 }
